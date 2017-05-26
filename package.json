@@ -7,7 +7,7 @@
     "watch": "npm rebuild node-sass && node node_modules/webpack/bin/webpack.js --watch --config webpack.config.js",
     "build": "npm rebuild node-sass && node node_modules/webpack/bin/webpack.js --optimize-minimize --config webpack.production.config.js"
   },
-  "repository": "ssh://git@gitlab.dev.e-vista.hu:2828/wp/evista-starter-theme-sass.git",
+  "repository": "https://github.com/succli/evista-starter-theme-sass.git",
   "author": "Schutzbach Zsolt <schutzbach.zsolt@e-vista.hu>",
   "license": "MIT",
   "devDependencies": {
