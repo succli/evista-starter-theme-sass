@@ -72,6 +72,6 @@ More settings on: [https://www.npmjs.com/package/google-fonts-webpack-plugin](ht
 * [Yarn](https://yarnpkg.com/en/docs)
 
 ### Credits
-* [Bálint Séra](http://gitlab.dev.e-vista.hu/u/sbalint)
-* [Zsolt Schutzbach](http://gitlab.dev.e-vista.hu/u/succ)
+* [Zsolt Schutzbach](https://github.com/succli)
+* [Bálint Séra](https://github.com/balintsera)
 * [Evista Creative Agency](http://digital-agency.co/)
