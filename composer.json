@@ -1,0 +1,11 @@
+{
+  "name": "evista/evista-starter-theme-sass",
+  "type": "wordpress-theme",
+  "homepage": "http://digital-agency.co/",
+  "licence": "GPLv3",
+  "description": "Evista Starter Theme with Sass",
+  "keywords": ["theme", "evista"],
+  "require": {
+    "johnpbloch/wordpress": "^4.6"
+  }
+}
