@@ -2,6 +2,10 @@ const path = require('path')
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
+if (!process.env.WPTHEME) {
+  throw new Error('WPTHEME env variable is unset. Please set it to the current folder\'s name.')
+}
+
 const themeName = (process.env.WPTHEME).trim()
 
 const configs = [{
