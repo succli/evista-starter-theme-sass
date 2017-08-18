@@ -1,21 +1,8 @@
 # Evista Starter Wordpress Theme with Sass
 
-## Before install
-Run `npm install -g yarn`
-
 ## Install
-1. Run in theme root: `yarn install`
-
-2. Set your Wordpress theme name in `package.json`:
-```javascript
-"scripts": {
-  "watch": "set WPTHEME=evista-starter-theme-sass && npm rebuild node-sass && node node_modules/webpack/bin/webpack.js --watch --config webpack.config.js",
-  "build": "set WPTHEME=evista-starter-theme-sass && npm rebuild node-sass && node node_modules/webpack/bin/webpack.js --optimize-minimize --config webpack.production.config.js"
-}
-```
-Change **evista-starter-theme-sass** to your theme directory name.
-
-3. Run `npm run build`
+1. Run in theme root: `npm install`
+2. Run `npm run build`
 
 ## Watch
 `npm run watch`
@@ -24,7 +11,7 @@ Change **evista-starter-theme-sass** to your theme directory name.
 `npm run build`
 
 ### How to use Google Fonts
-Run `yarn add google-fonts-webpack-plugin -D`
+Run `npm install -s google-fonts-webpack-plugin`
 
 ##### Then add this to `webpack.config.js`:
 
