@@ -44,11 +44,10 @@ const configs = [{
 
   plugins: [
     new webpack.ProvidePlugin({
-      jQuery: 'jquery',
       $: 'jquery',
-      jquery: 'jquery',
+      jQuery: 'jquery',
       'window.jQuery': 'jquery',
-      Tether: 'tether'
+      Popper: ['popper.js', 'default']
     })
   ]
 }

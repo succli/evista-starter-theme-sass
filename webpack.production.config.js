@@ -2,6 +2,10 @@ const path = require('path')
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
+if (!process.env.WPTHEME) {
+  throw new Error('WPTHEME env variable is unset. Please set it to the current folder\'s name.')
+}
+
 const themeName = path.basename(process.cwd())
 
 const configs = [{
@@ -40,11 +44,10 @@ const configs = [{
 
   plugins: [
     new webpack.ProvidePlugin({
-      jQuery: 'jquery',
       $: 'jquery',
-      jquery: 'jquery',
+      jQuery: 'jquery',
       'window.jQuery': 'jquery',
-      Tether: 'tether'
+      Popper: ['popper.js', 'default']
     }),
     new ExtractTextPlugin('app.css')
   ]

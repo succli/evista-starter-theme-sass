@@ -6,6 +6,6 @@
   "description": "Evista Starter Theme with Sass",
   "keywords": ["theme", "evista"],
   "require": {
-    "johnpbloch/wordpress": "^4.6"
+    "johnpbloch/wordpress": "^4.9"
   }
 }

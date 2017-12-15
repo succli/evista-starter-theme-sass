@@ -11,7 +11,7 @@
 `npm run build`
 
 ### How to use Google Fonts
-Run `npm install -s google-fonts-webpack-plugin`
+Run `npm install google-fonts-webpack-plugin`
 
 ##### Then add this to `webpack.config.js`:
 
@@ -54,9 +54,8 @@ const configs = [{
 More settings on: [https://www.npmjs.com/package/google-fonts-webpack-plugin](https://www.npmjs.com/package/google-fonts-webpack-plugin)
 
 ### Documentations:
-* [Bootstrap 4](https://v4-alpha.getbootstrap.com/getting-started/introduction/)
+* [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [Webpack](https://webpack.js.org/)
-* [Yarn](https://yarnpkg.com/en/docs)
 
 ### Credits
 * [Zsolt Schutzbach](https://github.com/succli)
