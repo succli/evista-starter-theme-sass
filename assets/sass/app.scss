@@ -1,8 +1,9 @@
 @import 'mixins';
-@import 'colors';
+@import 'variables';
 
 html, body{
 	margin: 0;
 	padding: 0;
-	background: $color-secondary;
+	background: $body-bg;
+	font-size: $l-font-size;
 }

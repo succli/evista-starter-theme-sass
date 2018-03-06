@@ -44,19 +44,3 @@
     color: $color;
   }
 }
-
-@mixin gradient($c1, $c2){
-  background: $c1;
-  background: -moz-linear-gradient(top, $c1 0%, $c2 100%);
-  background: -webkit-linear-gradient(top, $c1 0%,$c2 100%);
-  background: linear-gradient(to bottom, $c1 0%,$c2 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$c1, endColorstr=$c2,GradientType=0 );
-}
-
-@mixin flex-width($width){
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 $width;
-  -ms-flex: 0 0 $width;
-  flex: 0 0 $width;
-  max-width: $width;
-}

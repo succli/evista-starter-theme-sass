@@ -1,6 +1,6 @@
-require('bootstrap')
-require('bootstrap/scss/bootstrap.scss')
-require('font-awesome/scss/font-awesome.scss')
+import 'bootstrap'
+import 'bootstrap/scss/bootstrap.scss'
+import 'font-awesome/scss/font-awesome.scss'
 
 import ExampleClass from './example.js'
 

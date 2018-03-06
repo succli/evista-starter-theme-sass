@@ -8,6 +8,7 @@ if (!process.env.WPTHEME) {
 const themeName = (process.env.WPTHEME).trim()
 
 const configs = [{
+  mode: 'development',
   entry: './assets/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -37,7 +38,7 @@ const configs = [{
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
-        use: 'file-loader?context=assets/&name=[path][name].[ext]&publicPath=/wp-content/themes/' + themeName + '/build/'
+        use: `file-loader?context=assets/&name=[path][name].[ext]&publicPath=/wp-content/themes/${themeName}/build/`
       }
     ]
   },
