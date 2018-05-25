@@ -1,6 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const CrudeTimingPlugin = require('./crude-timing-plugin')
 
@@ -21,10 +21,19 @@ const configs = [{
       },
       {
         test: /\.(sass|scss)$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: 'css-loader!sass-loader'
-        })
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader',
+          'sass-loader'
+        ]
+      },
+      {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader'
+        ]
       },
       {
         test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
@@ -86,7 +95,10 @@ const configs = [{
         mangle: true
       }
     }),
-    new ExtractTextPlugin('app.css')
+    new MiniCssExtractPlugin({
+      filename: 'app.css',
+      chunkFilename: '[id].css'
+    })
   ]
 }
 ]
