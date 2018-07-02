@@ -33,14 +33,14 @@ $medium-screen: 768px;
 $large-screen: 992px;
 $xlarge-screen: 1200px;
 
-$small-and-up: "screen and (min-width: ${$small-screen})";
-$medium-and-up: "screen and (min-width: ${$medium-screen})";
-$large-and-up: "screen and (min-width: ${$large-screen})";
-$xlarge-and-up: "screen and (min-width: ${$xlarge-screen})";
-$xsmall-and-down: "screen and (max-width ${$xsmall-screen-down})";
-$small-and-down: "screen and (max-width ${$small-screen-down})";
-$medium-and-down: "screen and (max-width ${$medium-screen-down})";
-$large-and-down: "screen and (max-width ${$large-screen-down})";
+$small-and-up: "screen and (min-width: #{$small-screen})";
+$medium-and-up: "screen and (min-width: #{$medium-screen})";
+$large-and-up: "screen and (min-width: #{$large-screen})";
+$xlarge-and-up: "screen and (min-width: #{$xlarge-screen})";
+$xsmall-and-down: "screen and (max-width: #{$xsmall-screen-down})";
+$small-and-down: "screen and (max-width: #{$small-screen-down})";
+$medium-and-down: "screen and (max-width: #{$medium-screen-down})";
+$large-and-down: "screen and (max-width: #{$large-screen-down})";
 
 // 4. Typography
 
