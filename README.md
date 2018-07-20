@@ -29,7 +29,7 @@ const configs = [{
   module: {
     ...
   },
-  plugins: {
+  plugins: [
     new GoogleFontsPlugin({
       name: 'googlefonts',
       filename: 'googleFonts.css',
@@ -47,7 +47,7 @@ const configs = [{
         }
       ]
     })
-  }
+  ]
 }]
 ```
 
