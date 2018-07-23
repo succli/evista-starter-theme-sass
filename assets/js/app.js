@@ -1,6 +1,6 @@
 import 'bootstrap'
 import 'bootstrap/scss/bootstrap.scss'
-import 'font-awesome/scss/font-awesome.scss'
+import '@fortawesome/fontawesome-free/scss/fontawesome.scss'
 
 import ExampleClass from './example.js'
 
