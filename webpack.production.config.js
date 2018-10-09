@@ -61,11 +61,9 @@ const configs = [{
     new UglifyJsPlugin({
       uglifyOptions: {
         compress: {
-          arrows: false,
           booleans: false,
           collapse_vars: false,
           comparisons: false,
-          computed_props: false,
           hoist_funs: false,
           hoist_props: false,
           hoist_vars: false,
