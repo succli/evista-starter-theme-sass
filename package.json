@@ -12,28 +12,28 @@
   "author": "Schutzbach Zsolt <schutzbach.zsolt@e-vista.hu>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "@fortawesome/fontawesome-free": "^5.4.0",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@fortawesome/fontawesome-free": "^5.5.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.4",
-    "css-loader": "^1.0.0",
+    "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
-    "mini-css-extract-plugin": "^0.4.3",
-    "node-sass": "^4.9.3",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "standard": "^12.0.1",
     "style-loader": "^0.23.1",
-    "url-loader": "^1.1.1",
-    "webpack": "^4.20.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
     "imports-loader": "^0.8",
     "jquery": "^3.0",
-    "popper.js": "^1.14.4",
+    "popper.js": "^1.14.5",
     "uglifyjs-webpack-plugin": "^2.0.1"
   }
 }

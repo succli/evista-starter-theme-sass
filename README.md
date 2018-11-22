@@ -54,7 +54,7 @@ const configs = [{
 More settings on: [https://www.npmjs.com/package/google-fonts-webpack-plugin](https://www.npmjs.com/package/google-fonts-webpack-plugin)
 
 ### Documentations:
-* [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+* [Bootstrap 4](https://getbootstrap.com/docs/)
 * [Webpack](https://webpack.js.org/)
 
 ### Credits
